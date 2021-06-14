@@ -71,17 +71,17 @@ Paranteses are used for grouping in the regex. Grouping is used to seperate meta
 Bracket expressions are used to define what caracters will be matched with the regex, as explained in the very beginning where the brackets around the A-Z for upper case letters and numbers 0-9.
 
 ### Boundaries
+Boundaries here is in email validation since the '@' symbol will already act as a boundary for a given email address and name, domain, extension - but will not really need boundaries elsewhere. 
 
 ### Back-references
+Back refrences isn't truly needed since this is alike to an HTML refrence/element to the text between tags in the HTML.
+
+### Refrences
 Regular Expressions: https://www.regular-expressions.info/email.html
 
 Email Diagram: https://emailregex.com/wp-content/uploads/sites/2/2014/06/General-Email-Regex-Railroad-Diagram-emailregex.com_.png
 
 Validation Emails: https://mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/
 
-
-### Look-ahead and Look-behind
-
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hi hope you enjoyed the tutorial and have a good understanding, you can continue to find me here: https://github.com/xdaedx
