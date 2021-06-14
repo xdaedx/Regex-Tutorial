@@ -28,6 +28,21 @@ Now let's anaylize each part of the components.
 - [A-Z]{2,} (Extension: here is validating the email address extension, like ".com" or ".org". The email is able to end with 2 characters, example like ".co" address. But the minimum two characters is usually for the different country codes like .ca = Canada, .us = USA, .de = Germany)
 
 ### Anchors
+The anchors included with an email vlaidation regex are the ^ and the $ in this example:
+
+/^([a-zA-Z0-9_.-]+)@([\da-zA-Z.-]+).([a-zA-Z.]{2,6})$/
+
+The ^ signifies the regex will match with the code group in the first set of parantheses that the caret precedes meaning the information provided before the @ symbol appears in the rest of the code string preventing a user from simply submitting an '@(DOMAIN).com email address without the first required part of the email address, the NAME section.
+
+The $ symbol signifies the string regex will match ends with the DOMAIN the dollar sign follows.
+
+Examples:
+
+Not matched: @yahoo.com; there is no NAME.
+
+Not matched: sunisa@email.c; the extension is less than two letters, the minimum required for the extension.
+
+Matched: dogs@email.co.uk; this email address has a name, domain name, extnesion, and an acceptable country code extension.
 
 ### Quantifiers
 
