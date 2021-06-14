@@ -45,8 +45,14 @@ Not matched: sunisa@email.c; the extension is less than two letters, the minimum
 Matched: dogs@email.co.uk; this email address has a name, domain name, extnesion, and an acceptable country code extension.
 
 ### Quantifiers
+Quantifiers indicate the amount of characters the regex will match.
+
+The + quantifier will match 1 or more characters. The * quantifier will match 0 or more characters. The ? quantifier will match 0 or 1 characters. The {n} quantifier will match n characters. The {a,b} quantifier will match an expression that is at least a characters, but no more than b characters.
+
+The quantifier often follows a character class or bracket expression that defines what characters the regex will match.
 
 ### OR Operator
+This will match the expression before or after the | and can operate within a group or as a whole. The patterns will be tested in order just as java will match either set of characters.
 
 ### Character Classes
 
@@ -62,6 +68,10 @@ Matched: dogs@email.co.uk; this email address has a name, domain name, extnesion
 
 ### Back-references
 Regular Expressions: https://www.regular-expressions.info/email.html
+
+Email Diagram: https://emailregex.com/wp-content/uploads/sites/2/2014/06/General-Email-Regex-Railroad-Diagram-emailregex.com_.png
+
+Validation Emails: https://mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/
 
 
 ### Look-ahead and Look-behind
