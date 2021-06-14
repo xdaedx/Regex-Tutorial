@@ -1,5 +1,5 @@
-# Regex 
-For my regex tutorial, I decided to dp regexs and emails!
+# Regex Validating Emails
+For my regex tutorial, I decided to do regexs and emails!
 
 ## Summary
 
