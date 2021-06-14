@@ -55,14 +55,20 @@ The quantifier often follows a character class or bracket expression that define
 This will match the expression before or after the | and can operate within a group or as a whole. The patterns will be tested in order just as java will match either set of characters.
 
 ### Character Classes
+The character class in regex below is the \d within the second set of braces.
+
+The \d character class matches a single digit. The \w character class matches a single alphanumeric character or underscore. The \s character class matches a single white space such as a space or tab.
+
+Capitalizing the letter will negate the character class, so case is important when using these in your regex. 
 
 ### Flags
+Flags in regex are used for more advanced searching. This allows the expression to be on multiple lines without breaking the code.
 
 ### Grouping and Capturing
+Paranteses are used for grouping in the regex. Grouping is used to seperate meta characters from literal characters; grouping and capturing can also be used to isolate part of a string to back reference or replace a part of the string.
 
 ### Bracket Expressions
-
-### Greedy and Lazy Match
+Bracket expressions are used to define what caracters will be matched with the regex, as explained in the very beginning where the brackets around the A-Z for upper case letters and numbers 0-9.
 
 ### Boundaries
 
